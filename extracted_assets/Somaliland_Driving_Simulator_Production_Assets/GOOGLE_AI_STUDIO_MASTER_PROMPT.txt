@@ -1,0 +1,44 @@
+# GOOGLE AI STUDIO – PRODUCTION BUILD PROMPT
+
+You are a senior mobile game engineer. Build a complete playable Android-first 3D driving simulator named SOMALILAND DRIVING SIMULATOR. Use the uploaded `Somaliland_Driving_Simulator_Production_Assets.zip` as the supplied source asset pack.
+
+## Mandatory asset workflow
+1. Inspect `ASSET_MANIFEST.json` and every PNG under `assets/`.
+2. Create an asset catalog mapping each file to its intended use. Preserve filenames and paths.
+3. Do not use the full atlas as a single game texture. Use individual crops where appropriate.
+4. Treat city preview images as visual references only, not as 3D levels.
+5. Some crops are not perfectly isolated. Inspect alpha edges and crop boundaries; refine masks or recreate clean sprites before production. Never silently claim a crop is a finished transparent sprite.
+6. The supplied pack contains no 3D meshes, rigged vehicles, audio, or complete road tile set. Create real 3D geometry and physics, or clearly document any generated placeholder. Do not fake 3D gameplay with a static screenshot.
+
+## Technology
+Use Three.js + TypeScript + Vite for the playable 3D game and Capacitor for Android packaging. Use a modular codebase, proper asset loading, local persistence, and responsive landscape touch UI. If the environment cannot build an APK directly, deliver a buildable Android project and exact commands.
+
+## Core gameplay
+- Real-time 3D vehicle driving with acceleration, braking, reverse, handbrake, steering, wheel rotation, suspension approximation, collisions and speed-sensitive steering.
+- Camera modes: chase, cockpit, hood and cinematic.
+- Touch controls: steering wheel or left/right buttons, accelerator, brake, reverse, handbrake, horn, headlights, camera and pause. Support simultaneous multi-touch.
+- Traffic vehicles with lane-following, traffic-light behavior and collision avoidance.
+- Four Somaliland-inspired city environments: Hargeisa, Berbera, Borama and Burco. Use recognizable visual themes, flags, road signs, palms, buildings, rocky terrain and coastal scenery where suitable. Do not claim geographic accuracy unless verified.
+- Modes: Free Drive, Career, Parking, Checkpoint, Time Trial and Missions.
+- Garage with vehicle selection, paint colors and unlock progression.
+- HUD: speed, gear, RPM, fuel, minimap, mission timer, coins and damage.
+- Settings: graphics Low/Medium/High, audio, sensitivity, traffic density, language and vibration.
+- Offline play and local save data.
+
+## Performance
+Target stable performance on modest Android phones. Use low-poly meshes, instancing, texture compression where available, frustum culling, LOD, pooled traffic objects and scalable shadows. Avoid loading all city assets at once.
+
+## Required build stages
+A. Project skeleton, asset catalog and loading test.
+B. One playable test road and one controllable vehicle.
+C. Touch controls, camera and collision.
+D. Traffic and road systems.
+E. City environments and city selection.
+F. HUD, garage, menus and settings.
+G. Missions, rewards and persistence.
+H. Optimization, Android packaging and QA.
+
+At the end of each stage, run available checks, fix errors and report exactly what works and what remains. Never stop at a menu or mockup. The minimum acceptance test is: launch the app, enter Free Drive, drive forward, steer, brake, reverse, change camera, collide with a test obstacle, pause, quit and relaunch while retaining saved settings.
+
+## Deliverables
+Complete source code, organized asset references, asset catalog, setup instructions, Android build instructions, and a test checklist. Do not invent successful test results.

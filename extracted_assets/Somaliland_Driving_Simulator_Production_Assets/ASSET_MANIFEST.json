@@ -1,0 +1,786 @@
+[
+  {
+    "file": "assets/vehicles/somaliland_sedan_green_white_red.png",
+    "source_atlas_bbox_px": [
+      0,
+      466,
+      170,
+      582
+    ],
+    "size_px": [
+      170,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/white_suv.png",
+    "source_atlas_bbox_px": [
+      165,
+      466,
+      335,
+      582
+    ],
+    "size_px": [
+      170,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/black_suv.png",
+    "source_atlas_bbox_px": [
+      330,
+      466,
+      500,
+      582
+    ],
+    "size_px": [
+      170,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/red_sedan.png",
+    "source_atlas_bbox_px": [
+      490,
+      466,
+      660,
+      582
+    ],
+    "size_px": [
+      170,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/somaliland_city_bus.png",
+    "source_atlas_bbox_px": [
+      650,
+      466,
+      840,
+      582
+    ],
+    "size_px": [
+      190,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/somaliland_minibus.png",
+    "source_atlas_bbox_px": [
+      830,
+      466,
+      1010,
+      582
+    ],
+    "size_px": [
+      180,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/vehicles/white_pickup.png",
+    "source_atlas_bbox_px": [
+      1000,
+      466,
+      1185,
+      582
+    ],
+    "size_px": [
+      185,
+      116
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/flags/somaliland_flag_01.png",
+    "source_atlas_bbox_px": [
+      1170,
+      466,
+      1270,
+      580
+    ],
+    "size_px": [
+      100,
+      114
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/flags/somaliland_flag_02.png",
+    "source_atlas_bbox_px": [
+      1260,
+      466,
+      1365,
+      580
+    ],
+    "size_px": [
+      105,
+      114
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/flags/somaliland_flag_03.png",
+    "source_atlas_bbox_px": [
+      1355,
+      466,
+      1460,
+      580
+    ],
+    "size_px": [
+      105,
+      114
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/flags/somaliland_flag_04.png",
+    "source_atlas_bbox_px": [
+      1450,
+      466,
+      1555,
+      580
+    ],
+    "size_px": [
+      105,
+      114
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/flags/somaliland_flag_05.png",
+    "source_atlas_bbox_px": [
+      1545,
+      466,
+      1672,
+      580
+    ],
+    "size_px": [
+      127,
+      114
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/sign_hargeisa.png",
+    "source_atlas_bbox_px": [
+      55,
+      574,
+      235,
+      645
+    ],
+    "size_px": [
+      180,
+      71
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/sign_berbera.png",
+    "source_atlas_bbox_px": [
+      235,
+      574,
+      405,
+      645
+    ],
+    "size_px": [
+      170,
+      71
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/sign_borama.png",
+    "source_atlas_bbox_px": [
+      405,
+      574,
+      555,
+      645
+    ],
+    "size_px": [
+      150,
+      71
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/sign_burco.png",
+    "source_atlas_bbox_px": [
+      550,
+      574,
+      690,
+      645
+    ],
+    "size_px": [
+      140,
+      71
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/speed_limit_60.png",
+    "source_atlas_bbox_px": [
+      700,
+      574,
+      790,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/speed_limit_80.png",
+    "source_atlas_bbox_px": [
+      790,
+      574,
+      880,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/no_overtaking.png",
+    "source_atlas_bbox_px": [
+      880,
+      574,
+      970,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/no_stopping.png",
+    "source_atlas_bbox_px": [
+      970,
+      574,
+      1060,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/speed_bump.png",
+    "source_atlas_bbox_px": [
+      1060,
+      574,
+      1150,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/turn_warning.png",
+    "source_atlas_bbox_px": [
+      1140,
+      574,
+      1230,
+      650
+    ],
+    "size_px": [
+      90,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/pedestrian_crossing.png",
+    "source_atlas_bbox_px": [
+      1220,
+      574,
+      1325,
+      650
+    ],
+    "size_px": [
+      105,
+      76
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/parking_sign.png",
+    "source_atlas_bbox_px": [
+      1340,
+      574,
+      1425,
+      655
+    ],
+    "size_px": [
+      85,
+      81
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/signs/traffic_light.png",
+    "source_atlas_bbox_px": [
+      1540,
+      574,
+      1635,
+      680
+    ],
+    "size_px": [
+      95,
+      106
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/city_building_cluster.png",
+    "source_atlas_bbox_px": [
+      0,
+      630,
+      360,
+      745
+    ],
+    "size_px": [
+      360,
+      115
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/hargeisa_landmark_buildings.png",
+    "source_atlas_bbox_px": [
+      340,
+      630,
+      700,
+      745
+    ],
+    "size_px": [
+      360,
+      115
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/rocky_hills.png",
+    "source_atlas_bbox_px": [
+      700,
+      630,
+      900,
+      745
+    ],
+    "size_px": [
+      200,
+      115
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/palm_tree_cluster.png",
+    "source_atlas_bbox_px": [
+      850,
+      630,
+      1220,
+      755
+    ],
+    "size_px": [
+      370,
+      125
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/green_tree_cluster.png",
+    "source_atlas_bbox_px": [
+      1180,
+      630,
+      1480,
+      755
+    ],
+    "size_px": [
+      300,
+      125
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/environment/boulders.png",
+    "source_atlas_bbox_px": [
+      1460,
+      650,
+      1672,
+      760
+    ],
+    "size_px": [
+      212,
+      110
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/minimap.png",
+    "source_atlas_bbox_px": [
+      0,
+      740,
+      140,
+      880
+    ],
+    "size_px": [
+      140,
+      140
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/fuel_gauge.png",
+    "source_atlas_bbox_px": [
+      135,
+      740,
+      275,
+      880
+    ],
+    "size_px": [
+      140,
+      140
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/speedometer.png",
+    "source_atlas_bbox_px": [
+      270,
+      740,
+      420,
+      880
+    ],
+    "size_px": [
+      150,
+      140
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/camera_button.png",
+    "source_atlas_bbox_px": [
+      420,
+      780,
+      500,
+      875
+    ],
+    "size_px": [
+      80,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/pause_button.png",
+    "source_atlas_bbox_px": [
+      495,
+      780,
+      570,
+      875
+    ],
+    "size_px": [
+      75,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/home_button.png",
+    "source_atlas_bbox_px": [
+      565,
+      780,
+      640,
+      875
+    ],
+    "size_px": [
+      75,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/rank_button.png",
+    "source_atlas_bbox_px": [
+      635,
+      780,
+      715,
+      875
+    ],
+    "size_px": [
+      80,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/coins_button.png",
+    "source_atlas_bbox_px": [
+      710,
+      780,
+      790,
+      875
+    ],
+    "size_px": [
+      80,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/star_button.png",
+    "source_atlas_bbox_px": [
+      785,
+      780,
+      865,
+      875
+    ],
+    "size_px": [
+      80,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/reward_button.png",
+    "source_atlas_bbox_px": [
+      860,
+      780,
+      940,
+      875
+    ],
+    "size_px": [
+      80,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/daily_button.png",
+    "source_atlas_bbox_px": [
+      935,
+      780,
+      1020,
+      875
+    ],
+    "size_px": [
+      85,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/settings_button.png",
+    "source_atlas_bbox_px": [
+      1015,
+      780,
+      1100,
+      875
+    ],
+    "size_px": [
+      85,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/music_button.png",
+    "source_atlas_bbox_px": [
+      1095,
+      780,
+      1180,
+      875
+    ],
+    "size_px": [
+      85,
+      95
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/brake_control.png",
+    "source_atlas_bbox_px": [
+      1180,
+      760,
+      1275,
+      880
+    ],
+    "size_px": [
+      95,
+      120
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/accelerator_control.png",
+    "source_atlas_bbox_px": [
+      1270,
+      760,
+      1370,
+      880
+    ],
+    "size_px": [
+      100,
+      120
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/steering_left.png",
+    "source_atlas_bbox_px": [
+      1450,
+      740,
+      1525,
+      815
+    ],
+    "size_px": [
+      75,
+      75
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/steering_right.png",
+    "source_atlas_bbox_px": [
+      1515,
+      740,
+      1595,
+      815
+    ],
+    "size_px": [
+      80,
+      75
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/steering_up.png",
+    "source_atlas_bbox_px": [
+      1585,
+      740,
+      1672,
+      815
+    ],
+    "size_px": [
+      87,
+      75
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/confirm_button.png",
+    "source_atlas_bbox_px": [
+      1450,
+      805,
+      1555,
+      925
+    ],
+    "size_px": [
+      105,
+      120
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/ui/cancel_button.png",
+    "source_atlas_bbox_px": [
+      1550,
+      805,
+      1672,
+      925
+    ],
+    "size_px": [
+      122,
+      120
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/props/road_barriers_and_cones.png",
+    "source_atlas_bbox_px": [
+      0,
+      870,
+      1175,
+      941
+    ],
+    "size_px": [
+      1175,
+      71
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/city_previews/hargeisa_menu_preview.png",
+    "source_atlas_bbox_px": [
+      0,
+      0,
+      910,
+      465
+    ],
+    "size_px": [
+      910,
+      465
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/city_previews/berbera_city_preview.png",
+    "source_atlas_bbox_px": [
+      1410,
+      60,
+      1640,
+      205
+    ],
+    "size_px": [
+      230,
+      145
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/city_previews/borama_city_preview.png",
+    "source_atlas_bbox_px": [
+      1410,
+      205,
+      1640,
+      345
+    ],
+    "size_px": [
+      230,
+      140
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  },
+  {
+    "file": "assets/city_previews/burco_city_preview.png",
+    "source_atlas_bbox_px": [
+      1410,
+      345,
+      1640,
+      465
+    ],
+    "size_px": [
+      230,
+      120
+    ],
+    "type": "reference crop; inspect/refine before production use"
+  }
+]
